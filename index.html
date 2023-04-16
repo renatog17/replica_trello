@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Planner</title>
+    <link rel="stylesheet" href="style.css">
+    </href>
+</head>
+
+<body>
+
+    <div id="todo" class="coluna">
+        <h1> To do</h1>
+        <hr>
+        <div id="tarefas">
+            <br>
+        </div>
+        <img class="btn-add" src="botao-adicionar.png">
+    </div>
+
+    <div id="doing" class="coluna">
+        <h1> Doing</h1>
+        <hr>
+    </div>
+
+    <div id="done" class="coluna">
+        <h1>Done</h1>
+        <hr>
+    </div>
+
+    <div id="modal-add-task">
+        <h1>Nova tarefa</h1>
+        <hr>
+        <form>
+            <div>
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo">
+            </div>
+            <div>
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao">
+            </div>
+            <div>
+                <label for="prazo">Prazo:</label>
+                <input type="date" id="prazo" name="prazo">
+            </div>
+            <button  id="btn-enviar">Enviar</button>
+        </form>
+        <button type="submit" id="btn-cancelar-modal">Cancelar</button>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

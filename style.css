@@ -1,0 +1,53 @@
+#todo{
+    background-color: rgb(231, 159, 159);
+    
+}
+
+#doing{
+    background-color: rgb(238, 238, 185);
+}
+
+#done{
+    background-color: rgb(136, 174, 136);
+}
+
+.coluna{
+    vertical-align:top;
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: outset 10px #00000019;
+}
+
+hr{
+    border-color: black;
+}
+
+.btn-add{
+    width: 50px;
+    height: 50px;
+}
+
+#modal-add-task {    
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tarefa{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 15px 0;
+    border: 2px solid;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+}
